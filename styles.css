@@ -1,0 +1,57 @@
+/* ================================
+   General Page Styles
+================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+#header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px; /* padding inside the header */
+    border-bottom: 4px solid #2980b9; /* border as part of box model */
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ================================
+   Content Sections
+================================ */
+.content-box {
+    background-color: rgb(148, 50, 67);
+    margin: 20px;        /* space outside the box */
+    padding: 15px;       /* space inside the box */
+    border: 2px solid #ccc;
+    border-radius: 5px;  /* rounded corners */
+}
+
+/* Highlighted content box */
+.highlight {
+    background-color: #fffae6;
+    border-color: #f1c40f;
+}
+
+/* Headings inside content boxes */
+.content-box h2 {
+    margin-top: 0; /* remove extra space at the top */
+    color: #2c3e50;
+}
+
+/* Paragraph styling */
+.content-box p {
+    line-height: 1.6;
+}
